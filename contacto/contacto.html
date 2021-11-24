@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacto</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="formulario-login">
+        <p>20% de descuentos en todos los productos!</p>
+      </div>
+      <a href="../index.html">
+        <div class="display-flex-row justify-content-start align-items-center">
+          <img src="../img/logo.png" alt="logo" />
+          <h3>Nombre Tienda</h3>
+        </div></a
+      >
+    </header>
+    <main class="display-flex-column align-items-center justify-content-center">
+      <h1>Contacto</h1>
+
+      <form id="contacto" action="nombre y apellido" method="post">
+        <div>
+          <input
+            type="text"
+            name="nombre y apellido"
+            placeholder="Nombre y Apellido"
+          />
+        </div>
+        <div>
+          <input type="email" name="email" placeholder="Correo Electrónico" />
+        </div>
+        <textarea
+          name="comentario"
+          id="comentario"
+          cols="30"
+          rows="10"
+        ></textarea>
+        <div class="display-flex-row justify-content-start align-items-center">
+          <button class="boton-registro" type="reset" name="reset">
+            Resetear
+          </button>
+          <button class="button-registro" type="submit" name="entrar">
+            Entrar
+          </button>
+        </div>
+        <br />
+        <span class="cuenta-formulario">¿no tenés una cuenta?</span>
+        <a href="#"><span>Registrarme</span></a>
+      </form>
+    </main>
+    <footer
+      class="
+        footer-formulario
+        display-flex-row
+        justify-content-center
+        align-items-center
+      "
+    >
+      <p>Derechos reservados a FRONTEND 1</p>
+    </footer>
+  </body>
+</html>

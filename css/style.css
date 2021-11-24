@@ -5,6 +5,7 @@
   box-sizing: border-box;
 }
 
+
 .flex-wrap {
   flex-wrap: wrap;
 }
@@ -76,20 +77,20 @@ header h1 {
 .imagen-fondo-mujermaravilla {
   background-image: url("../img/fondo-mujer.png");
 
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
+  border-top-left-radius: 12%;
+  border-top-right-radius: 12%;
 }
 .imagen-fondo-superman {
   background-image: url("../img/fondosuperman.png");
 
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
+  border-top-left-radius: 12%;
+  border-top-right-radius: 12%;
 }
 .imagen-fondo-harley {
   background-image: url("../img/fondo-harly.png");
 
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
+  border-top-left-radius: 12%;
+  border-top-right-radius: 12%;
 }
 
 .informacion-heroe {
@@ -138,6 +139,89 @@ footer {
   width: 1px;
   height: 1px;
 }
+html {
+  min-height: 100%;
+  position: relative;
+}
+body {
+  margin: 0;
+  margin-bottom: 40px;
+}
+.footer-formulario {
+  background-color:#00669F ;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  color: white;
+}
+main{
+  padding:90px 0 90px 0;
+}
+h3{
+  color:#fff;
+}
+.formulario-login{
+  background-color:#1CD1B0;
+  color: #000;
+}
+input , .pais{
+    width: 100%;
+    border-radius: 2px;
+    padding: 8px;
+    margin: 12px 0;
+    border:1px solid #949292;
+   color:#949292
+}
+.boton-registro{
+  background-color:#949292;
+  padding: 8px;
+  margin: 4px;
+  border-radius: 12px;
+  color:#fff;
+}
+.button-registro{
+  background-color:#1CD1B0;
+  padding: 8px;
+  margin: 4px;
+  border-radius: 12px;
+  color:#000;
+}
+textarea{
+  width: 100%;
+}
+.formularios ul{
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  align-items: center;
+  padding-right: 5px; 
+}
+li a{ 
+  color: #fff;
+  margin: 8px;
+}
+
+
+
+button{
+  border:none;
+  background-color:#1CD1B0 ;
+  width: 100%;
+  padding: 8px;
+  margin: 12px 0;
+  border-radius: 12px;
+}
+a {
+  text-decoration: none;
+  color:#000;
+}
+.cuenta-formulario{
+ color: #00669F;
+}
+
+
 
 @media (max-width: 360px) {
   footer {
@@ -168,3 +252,5 @@ main {
 .boton-central .fas {
   color: #fff;
 }
+
+
